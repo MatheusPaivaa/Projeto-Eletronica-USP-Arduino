@@ -12,8 +12,23 @@ O projeto "Fechadura RFID com Arduino" é um sistema de controle de acesso que u
 
 ## Componentes:
 
-- **LED:** O LED (Light Emitting Diode) é um dispositivo que emite luz quando a corrente elétrica passa por ele. Ele pode ser utilizado para indicar visualmente a presença de tensão na saída da fonte de tensão ajustável.
+- **Módulo RFID Mfrc522:** Este módulo RFID permitirá a leitura dos cartões RFID e a comunicação com o Arduino.
 
+- **Protoboard:** A protoboard servirá como uma placa de teste para facilitar a conexão dos componentes eletrônicos.
+
+- **SG90 Micro-servo motor:** O servo motor será responsável pelo mecanismo de destravamento da fechadura da porta.
+
+- **Bateria de 9v:** A fonte de alimentação de 9V fornecerá energia ao Arduino e aos demais componentes do projeto.
+
+- **Sensor Infravermelho** O sensor IR receberá sinais infravermelhos para permitir o controle remoto da fechadura.
+
+- **Led Vermelho:** Os LEDs vermelhos serão utilizados para indicar quando a porta está trancada ou quando ocorre uma falha no acesso.
+
+- **Led Verde:** Os LEDs verdes serão utilizados para indicar quando a porta está destravada ou quando o acesso é autorizado.
+
+- **Buzzer:** O buzzer emitirá um som para indicar eventos, como a falha no acesso ou a abertura da porta.
+
+Esses componentes serão interligados e programados no Arduino para criar o sistema de controle de acesso por RFID, fornecendo segurança e conveniência na abertura da porta apenas para usuários autorizados.
 
 ## Escolha dos componentes:
 | Quantidade    | Componentes   | Especificações | Valor R$  |
@@ -40,6 +55,10 @@ Data de consulta: 02/07/2023
 
 Link do circuito no ThinkerCAD: [ThinkerCAD]()
 
+## Código utilizado:
+
+Descrever o código...
+   
 ## Funcionamento:
 
 - **Vídeo explicativo:**
