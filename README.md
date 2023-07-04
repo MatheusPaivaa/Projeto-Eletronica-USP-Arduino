@@ -33,17 +33,17 @@ Esses componentes serão interligados e programados no Arduino para criar o sist
 ## Escolha dos componentes:
 | Quantidade    | Componentes   | Especificações | Valor R$  |
 | :-------------: |:-------------:| :-------------: |---------:|
-| 1x | Protoboard | Ter pelo menos 400 pontos | [R$ 0,28]() |
-| 1x | Arduino UNO | Nenhuma especificação | [R$ 0,28]() |
-| 1x | Buzzer | Suportar no mínimo 5v | [R$ 0,28]() |
-| 1x | Led Verde: | Nenhuma especificação | [R$ 0,28]() |
-| 1x | Led Vermelho: | Nenhuma especificação| [R$ 0,28]() |
-| 1x | Sensor IR | Nenhuma especificação | [R$ 0,28]() |
-| 1x | Kit Módulo RFID Mfrc522| Ser compatível com Arduino e se possível ter cartão junto | [R$ 0,28]() |
-| 1x | SG90 Micro-servo motor | Ser compatível com Arduino | [R$ 0,28]() |
-| **Total**:     |               | | R$ 57,89 |
+| 1x | Protoboard | Ter pelo menos 400 pontos | [R$ 7,90](https://www.a2robotics.com.br/protoboard-400-pontos?gclid=Cj0KCQjwho-lBhC_ARIsAMpgModKQh_Yd51mk2CZSq-UeDmXjzpocMgamMs96h6rPUGi48HFNwdrOj0aAut_EALw_wcB) |
+| 1x | Arduino UNO | Nenhuma especificação | [R$ 44,90](https://www.a2robotics.com.br/arduino-uno-r3-smd-com-cabo-usb?gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoeYz1PPURumvn3vMHimuPUyWa5FRoVNcBBkd10MbyTVhgmmoWdttGMaArhIEALw_wcB) |
+| 1x | Buzzer | Suportar no mínimo 5v | [R$ 2,76](https://www.eletrogate.com/buzzer-ativo-5v?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad=1&gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoejHugrqEi7QgsucPjVRjOkdlyE81Or8NTz0Kw99CXRk1sbgoH298UaAjQ2EALw_wcB) |
+| 1x | Led Verde: | Nenhuma especificação | [R$ 0,28](https://www.eletrogate.com/led-difuso-5mm-verde) |
+| 1x | Led Vermelho: | Nenhuma especificação| [R$ 0,28](https://www.eletrogate.com/led-difuso-5mm-vermelho) |
+| 1x | Sensor IR | Nenhuma especificação | [R$ 0,86](https://www.eletrogate.com/receptor-universal-infravermelho-vs1838b-38khz?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad=1&gclid=Cj0KCQjwho-lBhC_ARIsAMpgMof6J3S7qVbM0CGkXKdwVsN_nc5x-hejDT2ZEOqHvxISa-tDk4KFWqgaAujfEALw_wcB) |
+| 1x | Kit Módulo RFID Mfrc522 | Ser compatível com Arduino e se possível ter cartão junto | [R$ 18,90](https://www.eletrogate.com/kit-modulo-rfid-mfrc522-1356-mhz?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad=1&gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoeiSpDMoc5iKMW2TZq2psyfE9b3DlZ_lAxt_sCvB3Nzflh0vmV7XekaAhZwEALw_wcB) |
+| 1x | SG90 Micro-servo motor | Ser compatível com Arduino | [R$ 10,80](https://www.a2robotics.com.br/micro-servo-9g-sg90-towerpro?gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoewGRkvCKO8e6zBvy_ItFOgkjZwRZ9UUszfTuYEneYCG5owjLX5inMaApEIEALw_wcB) |
+| **Total**:     |               | | R$ 86,68 |
 
-Data de consulta: 02/07/2023
+Data de consulta: 04/07/2023
 
 ## Imagem do projeto (ThinkerCAD):
 
