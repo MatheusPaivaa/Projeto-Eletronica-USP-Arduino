@@ -8,7 +8,9 @@ Desenvolvido para a disciplina Eletônica para Computação - SSC0180.
 
 ## Descrição do projeto:
 
+<p align="justify">
 O projeto "Fechadura RFID com Arduino" é um sistema de controle de acesso que utiliza tecnologia RFID (Radio-Frequency Identification) e um microcontrolador Arduino para garantir a segurança e conveniência no acesso a uma porta. O sistema permite a entrada apenas para pessoas autorizadas, que possuam um cartão RFID registrado. É uma solução de baixo custo e segura para substituir chaves convencionais por cartões RFID personalizados.
+</p>
 
 ## Componentes:
 
@@ -65,12 +67,13 @@ Link do circuito no ThinkerCAD: [ThinkerCAD]()
 - **Código:**
    
 ## Funcionamento:
-
+<p align="justify">
 O programa aguarda até que um cartão RFID seja detectado. Quando um cartão é detectado, o número de série do cartão é lido e comparado com os IDs armazenados no array rfid_id. Se o número de série não corresponder a nenhum dos IDs armazenados, o LED do buzzer é acionado por um segundo e a mensagem "ID incorreto" é exibida no monitor serial.
 
 Se o número de série corresponder a um dos IDs armazenados, a mensagem "Bem vindo a sua casa!" é exibida, o LED verde é ligado por 200 milissegundos, o LED vermelho é desligado, o buzzer emite um tom e o servo motor é acionado para abrir a porta.
 
 Após um atraso de 2 segundos, a mensagem "Porta aberta" é exibida. Em seguida, a função kapiyi_kapat() é chamada para fechar a porta. O valor do sensor de infravermelho é lido e, se for menor ou igual a 500, o servo motor é acionado para fechar a porta e a mensagem "Porta fechada" é exibida. Caso contrário, o programa retorna ao início do loop.
+</p>
 
 - **Vídeo explicativo:**
 
@@ -84,8 +87,9 @@ Renato Calacina Spessotto - **14605824** ([Github](https://github.com/renatocspe
 Vinícius Felisberto dos Reis - **13695390** ([Github](https://github.com/viniciusfreiss))
 
 ## Conclusão:
-
+<p align="justify">
 O projeto "Fechadura RFID com Arduino" nos ensina a integrar tecnologias como RFID e Arduino para criar soluções de controle de acesso eficientes e seguras. Aprendemos a utilizar o Arduino como um microcontrolador versátil para processar informações de leitores RFID, permitindo a identificação e verificação de usuários autorizados. Além disso, compreendemos a importância da proteção e privacidade no acesso a espaços restritos, substituindo as chaves convencionais por cartões RFID personalizados. Esse projeto nos mostra como a tecnologia pode facilitar e aprimorar a segurança em diferentes ambientes, oferecendo uma alternativa prática e confiável para o controle de acesso.
+</p>
 
 ## Agradecimentos:
 Agradecemos ao grandioso professor Eduardo do Valle Simões, **o Poderoso**.
