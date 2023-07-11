@@ -64,7 +64,7 @@ Link do circuito no ThinkerCAD: [ThinkerCAD]()
 |Pino 2| Controlar o LED Vermelho|
 |Pino 7| Controlar o Buzzer|
 
-- **Código:**
+- **Código:** [Código](https://github.com/MatheusPaivaa/Projeto-Eletronica-USP-Arduino/blob/main/fechaduraRFID/fechaduraRFID.ino)
    
 ## Funcionamento:
 <p align="justify">
