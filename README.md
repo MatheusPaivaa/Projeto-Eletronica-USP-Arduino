@@ -45,7 +45,7 @@ Esses componentes serão interligados e programados no Arduino para criar o sist
 | 1x | Led Verde: | Nenhuma especificação | [R$ 0,28](https://www.eletrogate.com/led-difuso-5mm-verde) |
 | 1x | Led Vermelho: | Nenhuma especificação| [R$ 0,28](https://www.eletrogate.com/led-difuso-5mm-vermelho) |
 | 1x | Sensor IR | Nenhuma especificação | [R$ 0,86](https://www.eletrogate.com/receptor-universal-infravermelho-vs1838b-38khz?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad=1&gclid=Cj0KCQjwho-lBhC_ARIsAMpgMof6J3S7qVbM0CGkXKdwVsN_nc5x-hejDT2ZEOqHvxISa-tDk4KFWqgaAujfEALw_wcB) |
-| 1x | Kit Módulo RFID Mfrc522 | Ser compatível com Arduino e se possível ter cartão junto | [R$ 18,90](https://www.eletrogate.com/kit-modulo-rfid-mfrc522-1356-mhz?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad=1&gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoeiSpDMoc5iKMW2TZq2psyfE9b3DlZ_lAxt_sCvB3Nzflh0vmV7XekaAhZwEALw_wcB) |
+| 1x | Kit Módulo RFID Mfrc522 | Ser compatível com Arduino (cartão junto) | [R$ 18,90](https://www.eletrogate.com/kit-modulo-rfid-mfrc522-1356-mhz?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad=1&gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoeiSpDMoc5iKMW2TZq2psyfE9b3DlZ_lAxt_sCvB3Nzflh0vmV7XekaAhZwEALw_wcB) |
 | 1x | SG90 Micro-servo motor | Ser compatível com Arduino | [R$ 10,80](https://www.a2robotics.com.br/micro-servo-9g-sg90-towerpro?gclid=Cj0KCQjwho-lBhC_ARIsAMpgMoewGRkvCKO8e6zBvy_ItFOgkjZwRZ9UUszfTuYEneYCG5owjLX5inMaApEIEALw_wcB) |
 | **Total**:     |               | | R$ 86,68 |
 
