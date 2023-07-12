@@ -12,6 +12,10 @@ Desenvolvido para a disciplina Eletônica para Computação - SSC0180.
 O projeto "Fechadura RFID com Arduino" é um sistema de controle de acesso que utiliza tecnologia RFID (Radio-Frequency Identification) e um microcontrolador Arduino para garantir a segurança e conveniência no acesso a uma porta. O sistema permite a entrada apenas para pessoas autorizadas, que possuam um cartão RFID registrado. É uma solução de baixo custo e segura para substituir chaves convencionais por cartões RFID personalizados.
 </p>
 
+<p align="center">
+   <img align="center" text-align="center" width="100%" src="https://github.com/MatheusPaivaa/Projeto-Eletronica-USP-Arduino/blob/main/porta_rfid.jpeg">
+</p>
+
 ## Componentes:
 
 - **Módulo RFID Mfrc522:** Este módulo RFID permitirá a leitura dos cartões RFID e a comunicação com o Arduino.
@@ -47,9 +51,13 @@ Esses componentes serão interligados e programados no Arduino para criar o sist
 
 Data de consulta: 04/07/2023
 
-## Imagem do projeto (ThinkerCAD):
+## Imagem do projeto (Esquemático):
 
-Link do circuito no ThinkerCAD: [ThinkerCAD]()
+<p align="center">
+   <img align="center" text-align="center" width="100%" src="https://github.com/MatheusPaivaa/Projeto-Eletronica-USP-Arduino/blob/main/esquematico_rfid.png">
+</p>
+
+- Utilizamos o Fritzing para desenvolver o esquemático.
 
 ## Código utilizado:
 
@@ -72,9 +80,9 @@ Os outros conectores fazem parte do sistema de alimentação.
 <p align="justify">
 O programa aguarda até que um cartão RFID seja detectado. Quando um cartão é detectado, o número de série do cartão é lido e comparado com os IDs armazenados no array rfid_id. Se o número de série não corresponder a nenhum dos IDs armazenados, o LED do buzzer é acionado por um segundo e a mensagem "ID incorreto" é exibida no monitor serial.
 
-Se o número de série corresponder a um dos IDs armazenados, a mensagem "Bem vindo a sua casa!" é exibida, o LED verde é ligado por 200 milissegundos, o LED vermelho é desligado, o buzzer emite um tom e o servo motor é acionado para abrir a porta.
+Se o número de série corresponder a um dos IDs armazenados, a mensagem "Bem vindo a sua casa!" é exibida, o LED verde é ligado por 200 milissegundos, o LED vermelho é desligado, o buzzer emite um tom e o servo motor é acionado para abrir a porta. Após um atraso de 2 segundos, a mensagem "Porta aberta" é exibida. Em seguida, a função kapiyi_kapat() é chamada para fechar a porta.
 
-Após um atraso de 2 segundos, a mensagem "Porta aberta" é exibida. Em seguida, a função kapiyi_kapat() é chamada para fechar a porta. O valor do sensor de infravermelho é lido e, se for menor ou igual a 500, o servo motor é acionado para fechar a porta e a mensagem "Porta fechada" é exibida. Caso contrário, o programa retorna ao início do loop.
+Ademais, com o sensor infravermelho é possível abrir a fechadura. No entanto, é necessário um emissor de infravermelho (para esse caso utilizamos um controle de ar-condicionado).
 </p>
 
 - **Vídeo explicativo:**
