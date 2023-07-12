@@ -20,7 +20,7 @@ RFID rfid(SS_PIN, RST_PIN);
 
 boolean kart  = false;
 
-int rfid_id[5] = {51,20,69,168,202}; //Definição do card ID pré definido 
+int rfid_id[2][5] = {{51,20,69,168,202}, {211, 71, 168, 169, 149}}; //Definição do card ID pré definido 
 
 // Podemos definir mais ID's caso necessário, porém é necessário criar um vetor bidimensional 
 
@@ -103,7 +103,7 @@ void loop() {
       delay(100);
     }
     for (int i = 0; i<5; i++){
-      if(rfid_id[i]  != rfid.serNum[i]){ // Verifica o ID do cartão com o ID pré estabelecido
+      if(rfid_id[0][i] != rfid.serNum[i]){ // Verifica o ID do cartão com o ID pré estabelecido
         kart = false;
         Serial.println("\nID incorreto.");
         digitalWrite(led_vermelho, HIGH);
@@ -122,6 +122,7 @@ void loop() {
         return;
       }
     }
+    
 
     Serial.println();
     delay(1000);
