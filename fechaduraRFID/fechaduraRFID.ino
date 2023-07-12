@@ -122,8 +122,7 @@ void loop() {
         return;
       }
     }
-    
-
+  
     Serial.println();
     delay(1000);
     abrir_porta();
