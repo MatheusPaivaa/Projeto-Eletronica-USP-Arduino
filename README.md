@@ -93,7 +93,7 @@ Ademais, com o sensor infravermelho é possível abrir a fechadura. No entanto, 
 ## Alunos:
 Matheus Paiva Angarola - **12560982** ([Github](https://github.com/MatheusPaivaa))
 
-Nelly Vanesa Mollo Cossio -  **13684860**
+Nelly Vanesa Mollo Cossio -  **13684860** ([Github](https://github.com/cossi0))
 
 Renato Calacina Spessotto - **14605824** ([Github](https://github.com/renatocspessotto))
 
