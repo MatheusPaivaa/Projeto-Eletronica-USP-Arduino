@@ -37,6 +37,7 @@ O projeto "Fechadura RFID com Arduino" é um sistema de controle de acesso que u
 Esses componentes serão interligados e programados no Arduino para criar o sistema de controle de acesso por RFID, fornecendo segurança e conveniência na abertura da porta apenas para usuários autorizados.
 
 ## Escolha dos componentes:
+
 | Quantidade    | Componentes   | Especificações | Valor R$  |
 | :-------------: |:-------------:| :-------------: |---------:|
 | 1x | Protoboard | Ter pelo menos 400 pontos | [R$ 7,90](https://www.a2robotics.com.br/protoboard-400-pontos?gclid=Cj0KCQjwho-lBhC_ARIsAMpgModKQh_Yd51mk2CZSq-UeDmXjzpocMgamMs96h6rPUGi48HFNwdrOj0aAut_EALw_wcB) |
@@ -85,7 +86,9 @@ Se o número de série corresponder a um dos IDs armazenados, a mensagem "Bem vi
 Ademais, com o sensor infravermelho é possível abrir a fechadura. No entanto, é necessário um emissor de infravermelho (para esse caso utilizamos um controle de ar-condicionado).
 </p>
 
-- **Vídeo explicativo:**
+- **Vídeo (funcionando + explicação):** [Vídeo](https://www.youtube.com/watch?v=mho0gzLNM6g)
+
+- **Vídeo (funcionando apenas):** [Vídeo](https://www.youtube.com/watch?v=QIyXdPlawQM)
 
 ## Alunos:
 Matheus Paiva Angarola - **12560982** ([Github](https://github.com/MatheusPaivaa))
